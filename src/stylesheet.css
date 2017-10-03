@@ -1,3 +1,8 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
 .no-select {
 	user-select: none;
 	-o-user-select: none;
@@ -57,7 +62,53 @@
 	z-index: 2;
 }
 
+
+
+
+
 /* CSS elements */
+
+.navbar {
+	display: inline-block;
+	position: relative;
+	background: white;
+	height: 50px;
+	width: 100%;
+}
+
+.navlist {
+	display: inline-block;
+	position: relative;
+	margin-top: 0px;
+	margin-left: -15px;
+	height: 50px;
+}
+
+.navlist_item {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navlist_item a {
+	display: block;
+	color: rgb(150,150,150);
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 15px;
+}
+
+.navlist_item a:hover, .navlist_item a:focus {
+	background: rgba(0,0,0,.05);
+}
+
+.navlist_selected {
+	color: rgb(0,170,240) !important;
+}
+
+
+
+
 .page_title {
 	padding: 20px;
 	color: rgba(0,0,0, .2);
@@ -73,6 +124,12 @@
 	font-weight: 300;
 	
 }
+
+
+
+
+
+
 
 
 /* Bouncing Arrow */
@@ -129,7 +186,7 @@
 
 .arrow {
   position: fixed;
-  top: 58vh;
+  top: 65vh;
   left: 50%;
   margin-left: -20px;
   width: 40px;
